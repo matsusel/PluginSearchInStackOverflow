@@ -19,6 +19,9 @@ class SearchStackOverflowAction : AnAction() {
                 BrowserUtil.browse("https://stackoverflow.com")
             }
         }
+        else{
+            BrowserUtil.browse("https://stackoverflow.com")
+        }
     }
 
 }
